@@ -1,4 +1,4 @@
-const checkAnswer = () => {
+function checkAnswer() {
   const correctAnswer = "4";
 
   const checkOptionSelected = document.querySelector(
@@ -22,7 +22,7 @@ const checkAnswer = () => {
     feedback.textContent = "That's incorrect. Try again!";
     feedback.style.color = "red";
   }
-};
+}
 console.log(checkAnswer);
 
 const submitAnswer = document.getElementById("submit-answer");
